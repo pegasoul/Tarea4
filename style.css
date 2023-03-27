@@ -1,123 +1,172 @@
-body{
-    background-color: rgb(187, 187, 187);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Arial";
+}
 
+@font-face {
+  font-family: "Sono";
+  src: url("https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400&display=swap");
 }
 
 /* Página principal */
 
 header {
-    background-color: white;
-    height: 180px;
-    width: 100%;
-    }
+  background-color: white;
+  height: 150px;
+  width: 100%;
+  display: grid;
+}
+
+.h6_header {
+  font-size: small;
+}
+
+.header_img {
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.header_sub {
+  display: flex;
+  justify-content: center;
+}
 
 nav {
-    background-color: white;
-    display: flex;
-    font-size: small;
+  background-color: white;
+  display: flex;
+  font-size: small;
+  justify-content: center;
 }
 
 a {
-    padding-right: 20px;
-    text-decoration: none;
+  padding-right: 30px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(84, 0, 163);
+}
+
+.home_links {
+  display: grid;
+  justify-content: center;
+  padding-top: 2em;
 }
 
 .img_principal {
-    padding: 1em;
-    width: 100%;
-}
-
-.link_ilustracion, .link_textil, .link_figuras {
-    color:blue;
+  display: flex;
+  justify-content: center;
 }
 
 /* Tabla de Horarios */
 
 .tabla_de_horarios {
-    background-color: white;
-    padding: 1em;
-}
-.dias{
-    font-weight: bold;
+  background-color: white;
+  padding: 1em;
 }
 
-.lunes_a_viernes, .Lunes, .Martes, .Miércoles,.Jueves,.Viernes {
-    color: goldenrod;
+.dias {
+  font-weight: bold;
 }
 
-.Sabado, .horario_sabados {
-    color:brown;
+.lunes_a_viernes,
+.Lunes,
+.Martes,
+.Miércoles,
+.Jueves,
+.Viernes {
+  color: goldenrod;
 }
 
-.Domingo, .horario_domingo {
-    color: rgb(167, 167, 167);
-}
-.horarios{
-    font-style: italic;
-    font-size: small;
+.Sabado,
+.horario_sabados {
+  color: brown;
 }
 
-.header_box{
-    width: ;
-    height: ;
-    border-radius: 5px ;
+.Domingo,
+.horario_domingo {
+  color: rgb(167, 167, 167);
+}
+.horarios {
+  font-style: italic;
+  font-size: small;
 }
 
-table{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid;
-    border-color: black;
+.header_box {
+  width: ;
+  height: ;
+  border-radius: 5px;
 }
 
-th, td{
-    border: 1px solid;
-    border-color: black;
+table {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  border-color: black;
+}
+
+th,
+td {
+  border: 1px solid;
+  border-color: black;
 }
 
 /*Bio*/
 
 .kero_conlentes {
-    padding: 10px;
+  padding: 10px;
 }
 
 .bio {
-    background-color: white;
-    height: 350px;
+  background-color: white;
+  height: 350px;
+  width: 600px;
 }
 
 /* Contacto */
 
 .formulario {
-    padding: 2em;
-    background-color: white;
-    height: 220px;
+  padding: 2em;
+  background-color: white;
+  height: 220px;
 }
 
-form{
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: rgb(161, 161, 161);
+form {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgb(161, 161, 161);
 }
 /*Trabajos*/
 
 .Trabajos_pages {
-    display: flex;
-    background-color: white;
-    width: 100%;
+  display: flex;
+  background-color: white;
+  width: 100%;
 }
 
 .trabajos_trabajos {
-    padding: 1em;
+  padding: 1em;
+}
+
+/*Volver a la pagina principal*/
+
+.Volver {
+  font-size: small;
 }
 
 /*Footer*/
 
 footer {
-    background-color: white;
-    width: 100%;
-    height: 18px;
+  padding-top: 2em;
+}
+
+.h6_footer {
+  font-size: x-small;
+  background-color: white;
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
 }
